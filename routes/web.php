@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','HomeController@index');
+Route::resource('/home','HomeController');
+Route::resource('/orders','OrderController');
+Route::resource('/admins','AdminController');
+
+
+Route::get('/login-admin','Auth\LoginController@show_dishmotion_admin_login');
+Route::post('/login-admin','Auth\LoginController@post_dishmotion_admin_login');
+Route::get('/logout','Auth\LoginController@dishmotion_logout');

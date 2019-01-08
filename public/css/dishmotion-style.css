@@ -1,0 +1,69 @@
+/**************************  home.blade.php  *********************/
+
+body{
+	margin:0% 5%;
+	background: rgba(236,236,236,1);
+}
+
+div.header{
+	border-bottom:10px;
+	border-color: black;
+	background: orange;
+}
+
+
+h1#logo{
+	color: purple;
+	font-family:'aria',serif;
+	font-size: 60px;
+	padding-top: 2%;
+	margin-left: 2%;
+}
+
+h1#logo span{
+	color: purple;
+	font-family:'aria',serif;
+	text-align: right;
+	font-size: 14px;
+	margin-left:100px;
+}
+
+p {
+	color:blue;
+}
+
+div.form{
+	padding:1% 20% 1% 20%;
+}
+
+input, select{
+	margin: 1% auto;
+}
+
+div.footer{
+	background: yellow;
+}
+
+div.footer > p{
+	padding:1% 50% 1% 50%;
+}
+
+/**************************  products.blade.php  *********************/
+
+img{
+	height:300px;
+	width:300px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin:1% auto 1% auto;
+    display:block;
+}
+
+h1.products{
+	font-size: 1.5em;
+	color:purple;
+	margin-bottom:3%;
+	
+}
+
